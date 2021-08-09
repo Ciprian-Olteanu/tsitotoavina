@@ -1,0 +1,321 @@
+@font-face {
+   font-family: "Oswald";
+   src: url("/fonts/Oswald-Medium.ttf") format("ttf"),
+
+  }
+
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 0;
+   margin: 0;
+   background: var(--color4);
+   height: 100vh;
+}
+:root {
+   --color1 : #ff9500;
+   --color2 : #47b57a;
+   --color3 : #695c5c;
+   --color4 : rgba(194, 194, 194, 0.363);
+}
+.container {
+   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.137);
+   background: white;
+   border-radius: 10px;
+   margin-top: 30px;
+   padding: 30px;
+}
+
+h6 {
+   color: var(--color3);
+}
+.telecharger {
+   color: var(--color1);
+}
+
+.box2 {
+   text-align: end;
+}
+.box3 {
+   text-align: center;
+   text-transform: uppercase;
+   margin-top: 30px;
+}
+.traitOrange {
+   background: var(--color1);
+   width: 100%;
+   height: 2px;
+}
+.bigProgresse {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 40px;
+   
+}
+.textExellent {
+   padding: 10px;
+   width: 350px;
+   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.150);
+   border-radius: 10px;
+}
+.runner-content {
+   z-index: 2;
+   margin-left: -25px;
+   position: relative;
+}
+.relative-progresse {
+   position: relative;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+}
+.progresseTwo {
+   z-index: 1;
+   width: 100%;
+   height: 20px;
+   position: absolute;
+   background: #f2f2f2;
+}
+.visa-credit {
+   position: absolute;
+   z-index: 5;
+   top: 51px;
+   right: 0;
+}
+.box32 {
+   width: 80px;
+   text-align: center;
+   color: var(--color2);
+   box-shadow: 0px 2px 5px 0px rgba(1, 75, 23, 0.15); 
+   border-radius: 5px;
+   right: -15px;
+   position: absolute;
+   top: -49px;
+}
+.number {
+   position: absolute;
+   bottom: 40px;
+   z-index: 1000;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   flex: row;
+}
+.numberLeft {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+}
+/* .box100 {
+   position: absolute;
+   text-align: center;
+}
+.visaCredit {
+   position: relative;
+} */
+/* ------------------------------section-1-------------------------------------- */
+
+.grid-container {
+   display: grid;
+   grid-template-columns: 11.3% 60%;
+   margin-top: 20px;
+   
+}
+
+.grid-card {
+   display: grid;
+   grid-template-columns: 1fr ;
+   grid-template-rows: 1fr ;
+   box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.150);
+   border-radius: 15px;
+   width: 67vw;
+   /* grid-template-rows: 1fr 1fr;
+   box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.230);
+   margin-left: 13px;
+   width: 66vw;
+   border-radius: 15px;
+   grid-template-areas: 
+   "g1 g2"
+   "g3 g3"; */
+}
+.grid-card2 {
+   display: grid;
+   grid-template-columns: 1fr 8fr;
+   border-radius: 15px 15px 0px 0px;
+   padding: 10px;
+   background: var(--color4);
+   height: 120px;
+}
+.visa {
+   text-align: center;
+   padding-top: 12px;
+}
+.visaDescription {
+   padding-top: 25px;
+}
+.visaDescription2 {
+   padding-left: 120px;
+}
+.femmeContainer {
+   z-index: 1;
+}
+.grid-container2 {
+   text-align: center;
+   margin-top: 60px;
+}
+.textContent h5 {
+   text-transform: uppercase;
+   font-weight: bold;
+   color: var(--color1);
+}
+.grid-content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.150);
+   border-radius: 15px;
+   margin-top: 20px;
+   padding: 30px 20px;
+   background: rgb(247, 233, 236);
+}
+.btn {
+   background: var(--color1);
+   color: white;
+   border-radius: 20px;
+   width: 317px;
+}
+.btn2 {
+   background: var(--color1);
+   color: white;
+   border-radius: 20px;
+   width: 300px;
+   padding-left: 25px;
+}
+.btn1 {
+   background: var(--color1);
+   color: white;
+   border-radius: 20px;
+   width: 300px;
+   padding-left: 25px;
+   text-align: end;
+}
+.chevronStyle{
+   background: white;
+   margin: 10px;
+   width: 20px;
+   height: 20px;
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   text-align: center;
+}
+
+
+.grid-content-desktop {
+   text-align: center;
+   margin-top: 40px;
+}
+.desktopText {
+   text-transform: uppercase;
+}
+.content-picto {
+   margin-top: 40px;
+   width: 250px;
+   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.150);
+   border-radius: 15px;
+}
+.pecto-3 {
+   text-align: center;
+   background:var(--color4);
+   border-radius: 15px 15px 0px 0px;
+   padding-bottom: 10px;
+}
+.picto3-style {
+   padding: 20;
+}
+
+.text-progress {
+   padding:20px;
+}
+.allPicto {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.btn-content {
+   display: flex;
+   justify-content: flex-end;
+
+}
+.securite-content {
+   padding: 30px 20px;
+   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.150);
+   border-radius: 15px;
+   background: var(--color4);
+}
+@media screen and (max-width:1366px) {
+   .head-content2 {
+      display: none;
+   }
+}
+
+@media screen and (max-width:768px) {
+   .bigProgresse {
+      display: flex;
+      flex-direction: column;
+   }
+   .box32 {
+      margin-top: 10px;
+      box-shadow: 0px 2px 5px 0px rgba(1, 75, 23, 0.15);
+   }
+}
+@media screen and (max-width:1210px) {
+   .femmeContainer {
+      display: none;
+   }
+   .grid-container {
+      display: flex;
+      justify-content: center;
+   }
+   .grid-card2 {
+      display: grid;
+      grid-template-columns: 1fr 8fr;
+      border-radius: 15px 15px 0px 0px;
+      padding: 10px;
+      background: var(--color4);
+      height: auto;
+   }
+   .visaDescription2 {
+      padding-left: 40px;
+      padding-right: 10px;
+   }
+   .grid-container2 {
+      display: none;
+   }
+   .grid-content {
+      display: none;
+   }
+   .grid-content-desktop {
+      display: none;
+   }
+   .allPicto {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .btn-content {
+      display: none;
+   }
+   .progress-content {
+      width: 100%;
+   }
+   .head-content {
+      display: none;
+   }
+   .head-content2 {
+      display: block;
+   }
+}
